@@ -5,8 +5,8 @@ import {
 } from 'recharts';
 import './App.css';
 
-const TOKEN = "demo"; // Using demo token - replace with your activated token later
-const BACKEND_URL = "http://localhost:5000";
+const TOKEN = import.meta.env.VITE_WAQI_TOKEN || "demo";
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
 
 const getAqiStatus = (aqi) => {
     if (aqi > 300) return { status: 'Hazardous', color: '#e74c3c', bgClass: 'bg-hazardous' };

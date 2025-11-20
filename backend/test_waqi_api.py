@@ -2,7 +2,8 @@ import requests
 import json
 
 # Test the WAQI API token
-TOKEN = "demo"  # Using demo token for testing
+import os
+TOKEN = os.getenv("WAQI_TOKEN", "demo")  # Get from environment or use demo
 test_cities = ["Delhi", "Mumbai", "London", "New York"]
 
 print("=" * 60)

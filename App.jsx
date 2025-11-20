@@ -5,7 +5,7 @@ import {
 } from 'recharts';
 import './App.css';
 
-const TOKEN = "demo"; // Using demo token - replace with your activated token later
+const TOKEN = "demo"; // Replace with your token or use .env file
 const BACKEND_URL = "http://localhost:5000"; // Backend URL
 
  
