@@ -1,0 +1,7 @@
+requests
+flask
+joblib
+numpy
+pandas
+tensorflow
+flask_cors
