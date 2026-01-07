@@ -53,14 +53,14 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 5.554,71.14,52.98,6.95,Traffic congestion,Unhealthy for sensitive groups,Monitor your symptoms and seek medical advice,29.267
 1.599,29.41,43.59,44.66,Power plant emissions,Unhealthy for sensitive groups,Limit time spent in high-traffic or dusty areas,22.5945
 7.063,60.17,27.35,7.5,Traffic congestion,Moderate,Enjoy outdoor activities but with caution,17.2065
-4.762,1,86.94,2.08,Domestic cooking/heating smoke,Unhealthy,Consider wearing an N95 respirator mask outdoors,45.851
+4.762,1.0,86.94,2.08,Domestic cooking/heating smoke,Unhealthy,Consider wearing an N95 respirator mask outdoors,45.851
 0.596,1.9,271.82,3.62,Construction dust,Hazardous,All individuals should immediately seek indoor shelter,136.208
 4.494,15.15,101.14,0.59,Waste burning,Unhealthy,Wear a high-efficiency particulate air mask outdoors,52.817
 1.458,13.12,289.03,8.05,Construction dust,Hazardous,Evacuate from affected areas if public safety permits,145.244
 6.969,14.2,118.93,1.01,Waste burning,Unhealthy,Ensure proper ventilation with an air filter system,62.9495
 3.604,49.68,98.79,36.11,Industrial emissions,Unhealthy,Ensure proper ventilation with an air filter system,51.197
 1.985,32.54,53.2,28.13,Power plant emissions,Unhealthy for sensitive groups,Children and seniors should reduce prolonged exertion outside,27.5925
-4.044,7.43,81.16,3,Biomass burning,Unhealthy,Wear a high-efficiency particulate air mask outdoors,42.602
+4.044,7.43,81.16,3.0,Biomass burning,Unhealthy,Wear a high-efficiency particulate air mask outdoors,42.602
 0.39,7.37,291.14,3.84,Construction dust,Hazardous,All individuals should immediately seek indoor shelter,145.765
 4.882,25.64,186.17,2.77,Waste burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,95.526
 1.864,4.18,23.76,0.32,Natural background air,Moderate,Continue with normal activities but remain vigilant,12.812
@@ -73,7 +73,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 3.148,54.36,79.53,18.93,Industrial emissions,Unhealthy,Postpone outdoor sports and strenuous activities today,41.339
 1.08,38.32,71.32,41.34,Power plant emissions,Unhealthy,Use an air purifier to improve indoor air quality,36.2
 4.166,22.45,203.71,3.78,Waste burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,103.938
-2.857,10.82,122,3.32,Domestic cooking/heating smoke,Unhealthy,Ensure proper ventilation with an air filter system,62.4285
+2.857,10.82,122.0,3.32,Domestic cooking/heating smoke,Unhealthy,Ensure proper ventilation with an air filter system,62.4285
 1.502,46.12,94.91,32.96,Industrial emissions,Unhealthy,Avoid all non-essential outdoor physical exertion,48.206
 0.822,3.27,293.92,1.31,Construction dust,Hazardous,Evacuate from affected areas if public safety permits,147.371
 4.362,11.36,117.09,2.48,Domestic cooking/heating smoke,Unhealthy,Stay indoors with windows and doors securely closed,60.726
@@ -87,7 +87,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 2.83,37.4,77.61,36.46,Power plant emissions,Unhealthy,Ensure proper ventilation with an air filter system,40.22
 1.01,2.65,20.32,2.71,Natural background air,Moderate,Stay informed on daily air quality forecasts,10.665
 3.989,59.05,81.95,33.33,Industrial emissions,Unhealthy,Wear a high-efficiency particulate air mask outdoors,42.9695
-2.966,67.99,57,25.8,Industrial emissions,Unhealthy,Ensure proper ventilation with an air filter system,29.983
+2.966,67.99,57.0,25.8,Industrial emissions,Unhealthy,Ensure proper ventilation with an air filter system,29.983
 0.382,11.86,202.26,3.02,Construction dust,Very unhealthy,Wear a certified respirator mask when stepping outside,101.321
 0.212,9.42,142.73,9.86,Construction dust,Unhealthy,Avoid all non-essential outdoor physical exertion,71.471
 0.759,13.66,231.15,4.12,Construction dust,Very unhealthy,Postpone all unnecessary outdoor travel and work,115.9545
@@ -95,7 +95,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.903,75.7,55.65,29.97,Industrial emissions,Unhealthy,Ensure proper ventilation with an air filter system,28.7765
 1.578,5.26,10.12,1.97,Natural background air,Good,Feel free to engage in all physical activities,5.849
 1.884,7.78,8.81,1.17,Natural background air,Moderate,Continue with normal activities but remain vigilant,5.347
-3,10.22,86.58,2.76,Biomass burning,Unhealthy,Consider wearing an N95 respirator mask outdoors,44.79
+3.0,10.22,86.58,2.76,Biomass burning,Unhealthy,Consider wearing an N95 respirator mask outdoors,44.79
 7.846,21.12,173.87,5.27,Waste burning,Very unhealthy,"Cancel all outdoor activities, including school sports",90.858
 1.254,3.8,264.86,8.18,Construction dust,Hazardous,Follow all official warnings and emergency protocols,133.057
 1.806,2.1,2.4,2.12,Natural background air,Moderate,Consider reducing prolonged outdoor physical activity,2.103
@@ -109,7 +109,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 3.833,64.24,110.48,36.27,Industrial emissions,Unhealthy,Postpone outdoor sports and strenuous activities today,57.1565
 4.321,6.05,111.86,1.95,Biomass burning,Unhealthy,Postpone outdoor sports and strenuous activities today,58.0905
 3.838,12.86,163.6,5.13,Biomass burning,Very unhealthy,Avoid exposure to outdoor air as much as possible,83.719
-4.103,17,97.33,0.15,Domestic cooking/heating smoke,Unhealthy,Stay indoors with windows and doors securely closed,50.7165
+4.103,17.0,97.33,0.15,Domestic cooking/heating smoke,Unhealthy,Stay indoors with windows and doors securely closed,50.7165
 2.16,31.66,65.61,26.1,Power plant emissions,Unhealthy,Wear a high-efficiency particulate air mask outdoors,33.885
 6.429,19.72,136.8,1.42,Waste burning,Unhealthy,Postpone outdoor sports and strenuous activities today,71.6145
 1.037,6.93,7.86,2.9,Natural background air,Moderate,Consider reducing prolonged outdoor physical activity,4.4485
@@ -154,7 +154,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 4.427,10.86,108.1,9.64,Biomass burning,Unhealthy,Postpone outdoor sports and strenuous activities today,56.2635
 5.027,28.8,177.42,4.81,Waste burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,91.2235
 3.952,61.06,112.69,21.52,Industrial emissions,Unhealthy,Use an air purifier to improve indoor air quality,58.321
-9.729,60.7,33,6.72,Traffic congestion,Moderate,Be mindful of your body's health reactions,21.3645
+9.729,60.7,33.0,6.72,Traffic congestion,Moderate,Be mindful of your body's health reactions,21.3645
 5.488,5.63,184.86,1.13,Biomass burning,Very unhealthy,Wear a certified respirator mask when stepping outside,95.174
 1.354,12.05,221.58,7.41,Construction dust,Very unhealthy,It is strongly advised to remain indoors now,111.467
 4.811,13.73,94.62,3.84,Biomass burning,Unhealthy,Consider wearing an N95 respirator mask outdoors,49.7155
@@ -164,7 +164,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 4.529,71.27,49.72,0.81,Traffic congestion,Unhealthy for sensitive groups,People with respiratory issues must stay indoors,27.1245
 7.346,23.72,129.19,10.81,Waste burning,Unhealthy,Avoid all non-essential outdoor physical exertion,68.268
 1.211,10.38,9.58,4.35,Natural background air,Moderate,Be mindful of your body's health reactions,5.3955
-1.288,26.29,31,38.01,Power plant emissions,Moderate,Consider reducing prolonged outdoor physical activity,16.144
+1.288,26.29,31.0,38.01,Power plant emissions,Moderate,Consider reducing prolonged outdoor physical activity,16.144
 0.401,3.23,173.24,1.73,Construction dust,Very unhealthy,It is strongly advised to remain indoors now,86.8205
 7.829,20.68,171.79,13.47,Waste burning,Very unhealthy,"Cancel all outdoor activities, including school sports",89.8095
 4.977,51.32,27.99,9.97,Traffic congestion,Moderate,Be mindful of your body's health reactions,16.4835
@@ -200,12 +200,12 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 5.421,9.19,146.04,4.33,Biomass burning,Unhealthy,Wear a high-efficiency particulate air mask outdoors,75.7305
 0.181,14.22,167.28,3.37,Construction dust,Very unhealthy,Postpone all unnecessary outdoor travel and work,83.7305
 1.199,12.11,2.73,1.99,Natural background air,Moderate,Stay informed on daily air quality forecasts,1.9645
-5.38,6.34,183,9.06,Biomass burning,Very unhealthy,"Cancel all outdoor activities, including school sports",94.19
+5.38,6.34,183.0,9.06,Biomass burning,Very unhealthy,"Cancel all outdoor activities, including school sports",94.19
 7.095,42.88,29.02,6.11,Traffic congestion,Moderate,Enjoy outdoor activities but with caution,18.0575
 3.995,17.1,105.64,0.71,Biomass burning,Unhealthy,Stay indoors with windows and doors securely closed,54.8175
 2.661,55.97,78.39,26.73,Industrial emissions,Unhealthy,Use an air purifier to improve indoor air quality,40.5255
 9.256,60.27,46.02,6.65,Traffic congestion,Unhealthy for sensitive groups,Vulnerable populations advised to avoid outdoor exposure,27.638
-2.602,41.34,65.93,38,Power plant emissions,Unhealthy,Avoid all non-essential outdoor physical exertion,34.266
+2.602,41.34,65.93,38.0,Power plant emissions,Unhealthy,Avoid all non-essential outdoor physical exertion,34.266
 2.621,58.24,34.57,25.68,Power plant emissions,Good,No precautions are required at this time,18.5955
 5.357,22.65,125.13,9.87,Waste burning,Unhealthy,Consider wearing an N95 respirator mask outdoors,65.2435
 8.589,58.5,51.98,4.94,Traffic congestion,Unhealthy for sensitive groups,Monitor your symptoms and seek medical advice,30.2845
@@ -260,7 +260,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.044,1.11,4.8,4.2,Natural background air,Moderate,Keep an eye on air quality updates hourly,2.922
 2.866,57.37,55.12,30.51,Power plant emissions,Unhealthy,Consider wearing an N95 respirator mask outdoors,28.993
 4.25,78.17,54.26,6.96,Traffic congestion,Unhealthy for sensitive groups,Sensitive individuals should limit strenuous outdoor efforts,29.255
-0.329,10.34,12.86,1,Natural background air,Moderate,Keep an eye on air quality updates hourly,6.5945
+0.329,10.34,12.86,1.0,Natural background air,Moderate,Keep an eye on air quality updates hourly,6.5945
 4.141,56.03,39.61,2.22,Traffic congestion,Unhealthy for sensitive groups,Limit time spent in high-traffic or dusty areas,21.8755
 1.25,14.19,224.78,5.4,Construction dust,Very unhealthy,Use an air filter or purifier in your home,113.015
 6.647,25.84,189.43,0.24,Waste burning,Very unhealthy,"Cancel all outdoor activities, including school sports",98.0385
@@ -306,7 +306,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 2.812,6.19,66.56,4.59,Domestic cooking/heating smoke,Unhealthy,Consider wearing an N95 respirator mask outdoors,34.686
 1.499,14.47,1.84,0.27,Natural background air,Moderate,Keep an eye on air quality updates hourly,1.6695
 5.376,23.01,166.66,13.2,Waste burning,Very unhealthy,Keep windows sealed and use indoor air circulation,86.018
-1.332,37.31,77,30.95,Power plant emissions,Unhealthy for sensitive groups,Vulnerable populations advised to avoid outdoor exposure,39.166
+1.332,37.31,77.0,30.95,Power plant emissions,Unhealthy for sensitive groups,Vulnerable populations advised to avoid outdoor exposure,39.166
 3.207,22.11,140.71,9.09,Domestic cooking/heating smoke,Unhealthy,Ensure proper ventilation with an air filter system,71.9585
 8.864,74.91,36.13,1.1,Traffic congestion,Unhealthy for sensitive groups,Avoid strenuous outdoor work or physical exercise,22.497
 4.907,26.66,112.94,6.63,Waste burning,Unhealthy,Postpone outdoor sports and strenuous activities today,58.9235
@@ -336,7 +336,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.539,52.64,118.03,20.34,Industrial emissions,Unhealthy,Avoid all non-essential outdoor physical exertion,59.7845
 1.133,11.45,145.43,2.29,Construction dust,Unhealthy,Postpone outdoor sports and strenuous activities today,73.2815
 3.612,79.34,90.12,33.72,Industrial emissions,Unhealthy,Avoid all non-essential outdoor physical exertion,46.866
-6.83,45.77,51.17,5.03,Traffic congestion,Unhealthy for sensitive groups,Limit time spent in high-traffic or dusty areas,29
+6.83,45.77,51.17,5.03,Traffic congestion,Unhealthy for sensitive groups,Limit time spent in high-traffic or dusty areas,29.0
 6.702,19.9,120.82,2.38,Waste burning,Unhealthy,Consider wearing an N95 respirator mask outdoors,63.761
 0.483,1.18,8.91,3.74,Natural background air,Good,Enjoy all outdoor activities with no restrictions,4.6965
 1.59,38.05,58.23,28.32,Power plant emissions,Unhealthy,Use an air purifier to improve indoor air quality,29.91
@@ -376,7 +376,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.007,12.45,239.86,3.38,Construction dust,Very unhealthy,Keep windows sealed and use indoor air circulation,120.4335
 0.675,0.27,192.66,5.5,Construction dust,Very unhealthy,"Cancel all outdoor activities, including school sports",96.6675
 3.087,41.16,93.75,24.53,Industrial emissions,Unhealthy for sensitive groups,Sensitive individuals should limit strenuous outdoor efforts,48.4185
-1.208,7.4,1,4.92,Natural background air,Moderate,Consider reducing prolonged outdoor physical activity,1.104
+1.208,7.4,1.0,4.92,Natural background air,Moderate,Consider reducing prolonged outdoor physical activity,1.104
 0.639,8.88,1.81,0.74,Natural background air,Good,It is a great day for outdoor recreation,1.2245
 2.524,57.83,77.04,26.07,Power plant emissions,Unhealthy,Postpone outdoor sports and strenuous activities today,39.782
 1.835,30.91,34.68,21.48,Power plant emissions,Moderate,Stay informed on daily air quality forecasts,18.2575
@@ -528,7 +528,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 3.615,17.56,185.67,8.71,Biomass burning,Unhealthy,Postpone outdoor sports and strenuous activities today,94.6425
 1.599,74.33,55.98,16.74,Industrial emissions,Unhealthy,Consider wearing an N95 respirator mask outdoors,28.7895
 3.105,10.81,63.77,2.6,Domestic cooking/heating smoke,Unhealthy,Use an air purifier to improve indoor air quality,33.4375
-2.739,29,68.84,45.58,Power plant emissions,Unhealthy,Ensure proper ventilation with an air filter system,35.7895
+2.739,29.0,68.84,45.58,Power plant emissions,Unhealthy,Ensure proper ventilation with an air filter system,35.7895
 4.344,11.43,116.72,8.78,Waste burning,Unhealthy,Wear a high-efficiency particulate air mask outdoors,60.532
 0.513,8.89,23.4,3.39,Natural background air,Moderate,Stay informed on daily air quality forecasts,11.9565
 6.393,44.3,54.01,3.57,Traffic congestion,Unhealthy for sensitive groups,Avoid strenuous outdoor work or physical exercise,30.2015
@@ -540,7 +540,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 3.329,73.15,63.24,29.08,Industrial emissions,Unhealthy,Wear a high-efficiency particulate air mask outdoors,33.2845
 0.79,7.38,22.02,2.06,Natural background air,Moderate,Enjoy outdoor activities but with caution,11.405
 9.599,58.69,49.38,9.22,Traffic congestion,Unhealthy for sensitive groups,Vulnerable populations advised to avoid outdoor exposure,29.4895
-6.178,14,204,2.51,Waste burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,105.089
+6.178,14.0,204.0,2.51,Waste burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,105.089
 5.231,25.34,234.79,12.15,Waste burning,Very unhealthy,Avoid exposure to outdoor air as much as possible,120.0105
 7.241,20.74,212.73,13.7,Waste burning,Very unhealthy,"Cancel all outdoor activities, including school sports",109.9855
 2.616,52.1,35.7,39.67,Power plant emissions,Unhealthy for sensitive groups,Sensitive individuals should limit strenuous outdoor efforts,19.158
@@ -557,7 +557,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 4.198,16.43,170.29,3.4,Waste burning,Very unhealthy,Avoid exposure to outdoor air as much as possible,87.244
 1.886,13.98,158.03,3.58,Construction dust,Very unhealthy,Avoid exposure to outdoor air as much as possible,79.958
 0.378,8.6,5.38,4.31,Natural background air,Good,"Enjoy clean air and sunshine, stay active",2.879
-6.17,36.74,30,7.62,Traffic congestion,Moderate,Keep an eye on air quality updates hourly,18.085
+6.17,36.74,30.0,7.62,Traffic congestion,Moderate,Keep an eye on air quality updates hourly,18.085
 1.868,11.5,238.77,8.24,Construction dust,Very unhealthy,Use an air filter or purifier in your home,120.319
 2.311,76.75,103.82,19.81,Industrial emissions,Unhealthy,Wear a high-efficiency particulate air mask outdoors,53.0655
 1.296,10.68,4.46,0.4,Natural background air,Moderate,Stay informed on daily air quality forecasts,2.878
@@ -566,8 +566,8 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 3.392,15.81,95.85,7.94,Biomass burning,Unhealthy,Avoid all non-essential outdoor physical exertion,49.621
 5.261,19.83,136.3,1.45,Waste burning,Unhealthy,Consider wearing an N95 respirator mask outdoors,70.7805
 1.208,2.46,18.4,1.51,Natural background air,Moderate,Keep an eye on air quality updates hourly,9.804
-2.659,24,115.85,5.57,Domestic cooking/heating smoke,Unhealthy,Consider wearing an N95 respirator mask outdoors,59.2545
-6.916,29.5,118.61,0,Waste burning,Unhealthy,Avoid all non-essential outdoor physical exertion,62.763
+2.659,24.0,115.85,5.57,Domestic cooking/heating smoke,Unhealthy,Consider wearing an N95 respirator mask outdoors,59.2545
+6.916,29.5,118.61,0.0,Waste burning,Unhealthy,Avoid all non-essential outdoor physical exertion,62.763
 5.791,59.95,26.07,0.37,Traffic congestion,Moderate,Enjoy outdoor activities but with caution,15.9305
 1.199,26.54,78.18,31.93,Power plant emissions,Unhealthy,Avoid all non-essential outdoor physical exertion,39.6895
 1.39,43.17,68.44,22.8,Power plant emissions,Unhealthy,Consider wearing an N95 respirator mask outdoors,34.915
@@ -601,7 +601,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 2.493,2.91,109.66,9.02,Domestic cooking/heating smoke,Unhealthy,Consider wearing an N95 respirator mask outdoors,56.0765
 3.422,17.91,85.11,2.02,Domestic cooking/heating smoke,Unhealthy,Consider wearing an N95 respirator mask outdoors,44.266
 5.408,11.44,142.01,2.93,Biomass burning,Unhealthy,Consider wearing an N95 respirator mask outdoors,73.709
-3.892,6,169.44,0.48,Biomass burning,Very unhealthy,It is strongly advised to remain indoors now,86.666
+3.892,6.0,169.44,0.48,Biomass burning,Very unhealthy,It is strongly advised to remain indoors now,86.666
 5.367,20.84,227.42,5.45,Waste burning,Very unhealthy,"Cancel all outdoor activities, including school sports",116.3935
 1.921,33.4,36.69,48.65,Power plant emissions,Unhealthy for sensitive groups,Avoid strenuous outdoor work or physical exercise,19.3055
 2.142,55.36,36.97,37.51,Power plant emissions,Unhealthy for sensitive groups,People with respiratory issues must stay indoors,19.556
@@ -633,7 +633,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.375,4.88,2.37,4.88,Natural background air,Moderate,Be mindful of your body's health reactions,1.8725
 2.467,73.68,60.64,16.72,Industrial emissions,Unhealthy,Consider wearing an N95 respirator mask outdoors,31.5535
 7.497,30.77,134.47,5.99,Waste burning,Unhealthy,Use an air purifier to improve indoor air quality,70.9835
-5.318,31.54,29.79,9,Traffic congestion,Moderate,Keep an eye on air quality updates hourly,17.554
+5.318,31.54,29.79,9.0,Traffic congestion,Moderate,Keep an eye on air quality updates hourly,17.554
 5.22,18.36,114.32,8.58,Biomass burning,Unhealthy,Avoid all non-essential outdoor physical exertion,59.77
 1.228,5.01,20.45,0.19,Natural background air,Moderate,Continue with normal activities but remain vigilant,10.839
 0.326,12.19,21.33,4.57,Natural background air,Moderate,Consider reducing prolonged outdoor physical activity,10.828
@@ -683,7 +683,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 6.767,34.14,159.64,1.96,Waste burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,83.2035
 5.779,4.57,156.49,2.22,Biomass burning,Very unhealthy,Keep windows sealed and use indoor air circulation,81.1345
 0.525,0.79,162.35,8.02,Construction dust,Very unhealthy,Wear a certified respirator mask when stepping outside,81.4375
-0.867,12,253.37,4.26,Construction dust,Hazardous,Outdoor activities are dangerous for all population groups,127.1185
+0.867,12.0,253.37,4.26,Construction dust,Hazardous,Outdoor activities are dangerous for all population groups,127.1185
 1.691,11.99,212.02,2.33,Construction dust,Very unhealthy,Postpone all unnecessary outdoor travel and work,106.8555
 0.996,4.94,199.87,8.57,Construction dust,Very unhealthy,It is strongly advised to remain indoors now,100.433
 0.101,0.94,154.54,0.32,Construction dust,Very unhealthy,Use an air filter or purifier in your home,77.3205
@@ -706,7 +706,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 6.02,67.58,47.74,8.49,Traffic congestion,Unhealthy for sensitive groups,Avoid strenuous outdoor work or physical exercise,26.88
 0.314,14.44,213.79,0.73,Construction dust,Very unhealthy,Wear a certified respirator mask when stepping outside,107.052
 3.964,9.53,107.9,6.4,Biomass burning,Unhealthy,Wear a high-efficiency particulate air mask outdoors,55.932
-3.053,5.87,173,5.18,Biomass burning,Very unhealthy,"Cancel all outdoor activities, including school sports",88.0265
+3.053,5.87,173.0,5.18,Biomass burning,Very unhealthy,"Cancel all outdoor activities, including school sports",88.0265
 8.82,39.75,47.85,2.38,Traffic congestion,Unhealthy for sensitive groups,People with respiratory issues must stay indoors,28.335
 6.603,75.41,28.89,4.93,Traffic congestion,Moderate,Enjoy outdoor activities but with caution,17.7465
 4.064,3.01,144.53,1.81,Domestic cooking/heating smoke,Unhealthy,Postpone outdoor sports and strenuous activities today,74.297
@@ -762,10 +762,10 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.034,1.76,215.54,1.27,Construction dust,Very unhealthy,Keep windows sealed and use indoor air circulation,108.287
 3.553,17.88,158.86,1.52,Biomass burning,Very unhealthy,Wear a certified respirator mask when stepping outside,81.2065
 2.97,56.93,104.37,19.14,Industrial emissions,Unhealthy,Consider wearing an N95 respirator mask outdoors,53.67
-1.515,30.61,43,32.17,Power plant emissions,Unhealthy for sensitive groups,Avoid strenuous outdoor work or physical exercise,22.2575
+1.515,30.61,43.0,32.17,Power plant emissions,Unhealthy for sensitive groups,Avoid strenuous outdoor work or physical exercise,22.2575
 1.137,6.59,1.68,2.32,Natural background air,Moderate,Enjoy outdoor activities but with caution,1.4085
 7.4,14.91,119.71,14.45,Waste burning,Unhealthy,Consider wearing an N95 respirator mask outdoors,63.555
-0.633,6,3.76,2.52,Natural background air,Good,Feel free to engage in all physical activities,2.1965
+0.633,6.0,3.76,2.52,Natural background air,Good,Feel free to engage in all physical activities,2.1965
 2.749,51.07,42.64,22.95,Power plant emissions,Moderate,Consider reducing prolonged outdoor physical activity,22.6945
 5.031,12.12,124.39,2.18,Biomass burning,Unhealthy,Ensure proper ventilation with an air filter system,64.7105
 2.826,46.75,57.32,28.24,Power plant emissions,Unhealthy,Consider wearing an N95 respirator mask outdoors,30.073
@@ -815,11 +815,11 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 8.254,41.44,29.77,0.15,Traffic congestion,Moderate,Keep an eye on air quality updates hourly,19.012
 1.412,7.36,6.44,4.42,Natural background air,Moderate,Be mindful of your body's health reactions,3.926
 1.338,59.23,72.67,35.45,Power plant emissions,Unhealthy,Avoid all non-essential outdoor physical exertion,37.004
-1.004,9.08,14,2.43,Natural background air,Moderate,Keep an eye on air quality updates hourly,7.502
+1.004,9.08,14.0,2.43,Natural background air,Moderate,Keep an eye on air quality updates hourly,7.502
 0.7,1.25,250.7,3.12,Construction dust,Hazardous,All individuals should immediately seek indoor shelter,125.7
 4.879,10.01,237.34,12.66,Waste burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,121.1095
 2.644,47.97,62.37,24.72,Power plant emissions,Unhealthy,Postpone outdoor sports and strenuous activities today,32.507
-0.513,2.86,16.75,0,Natural background air,Moderate,Be mindful of your body's health reactions,8.6315
+0.513,2.86,16.75,0.0,Natural background air,Moderate,Be mindful of your body's health reactions,8.6315
 4.731,7.14,174.72,2.51,Biomass burning,Very unhealthy,Wear a certified respirator mask when stepping outside,89.7255
 0.757,11.25,2.42,2.38,Natural background air,Moderate,Be mindful of your body's health reactions,1.5885
 4.331,21.56,88.93,5.38,Domestic cooking/heating smoke,Unhealthy,Wear a high-efficiency particulate air mask outdoors,46.6305
@@ -836,7 +836,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 3.032,18.33,119.62,9.32,Domestic cooking/heating smoke,Unhealthy,Stay indoors with windows and doors securely closed,61.326
 4.943,16.24,132.59,7.15,Domestic cooking/heating smoke,Unhealthy,Consider wearing an N95 respirator mask outdoors,68.7665
 6.321,70.72,59.55,1.5,Traffic congestion,Unhealthy,Wear a high-efficiency particulate air mask outdoors,32.9355
-5,11.83,199.81,8.93,Waste burning,Very unhealthy,Avoid exposure to outdoor air as much as possible,102.405
+5.0,11.83,199.81,8.93,Waste burning,Very unhealthy,Avoid exposure to outdoor air as much as possible,102.405
 2.703,74.78,106.24,20.8,Industrial emissions,Unhealthy,Stay indoors with windows and doors securely closed,54.4715
 4.238,25.11,214.79,7.85,Waste burning,Very unhealthy,Wear a certified respirator mask when stepping outside,109.514
 2.794,16.55,133.53,7.78,Domestic cooking/heating smoke,Unhealthy,Postpone outdoor sports and strenuous activities today,68.162
@@ -967,7 +967,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.565,14.06,244.85,1.56,Construction dust,Very unhealthy,Avoid exposure to outdoor air as much as possible,123.2075
 2.656,4.57,134.49,2.86,Domestic cooking/heating smoke,Unhealthy,Consider wearing an N95 respirator mask outdoors,68.573
 4.479,8.09,144.18,5.95,Biomass burning,Unhealthy,Use an air purifier to improve indoor air quality,74.3295
-1.69,46.91,56.31,32.71,Industrial emissions,Unhealthy,Stay indoors with windows and doors securely closed,29
+1.69,46.91,56.31,32.71,Industrial emissions,Unhealthy,Stay indoors with windows and doors securely closed,29.0
 4.283,4.69,68.87,6.99,Domestic cooking/heating smoke,Unhealthy,Wear a high-efficiency particulate air mask outdoors,36.5765
 4.512,4.24,62.7,7.79,Domestic cooking/heating smoke,Unhealthy,Avoid all non-essential outdoor physical exertion,33.606
 0.262,11.49,23.31,4.74,Natural background air,Moderate,Continue with normal activities but remain vigilant,11.786
@@ -994,7 +994,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 3.92,88.48,102.73,19.12,Industrial emissions,Unhealthy,Avoid all non-essential outdoor physical exertion,53.325
 1.669,43.66,39.88,44.35,Power plant emissions,Unhealthy for sensitive groups,Avoid strenuous outdoor work or physical exercise,20.7745
 0.911,0.46,21.98,0.07,Natural background air,Moderate,Enjoy outdoor activities but with caution,11.4455
-4.285,62.18,36,5.09,Traffic congestion,Unhealthy for sensitive groups,Limit time spent in high-traffic or dusty areas,20.1425
+4.285,62.18,36.0,5.09,Traffic congestion,Unhealthy for sensitive groups,Limit time spent in high-traffic or dusty areas,20.1425
 0.387,3.16,0.58,4.48,Natural background air,Good,Feel free to engage in all physical activities,0.4835
 3.663,0.78,85.29,1.75,Biomass burning,Unhealthy,Use an air purifier to improve indoor air quality,44.4765
 7.909,29.85,199.25,8.67,Waste burning,Very unhealthy,Avoid exposure to outdoor air as much as possible,103.5795
@@ -1030,7 +1030,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 2.281,36.68,77.9,21.97,Power plant emissions,Unhealthy,Ensure proper ventilation with an air filter system,40.0905
 0.496,0.55,139.23,7.28,Construction dust,Unhealthy,Stay indoors with windows and doors securely closed,69.863
 1.308,5.81,16.18,0.22,Natural background air,Unhealthy for sensitive groups,Monitor your symptoms and seek medical advice,8.744
-3.145,7.2,194.86,5,Biomass burning,Very unhealthy,Wear a certified respirator mask when stepping outside,99.0025
+3.145,7.2,194.86,5.0,Biomass burning,Very unhealthy,Wear a certified respirator mask when stepping outside,99.0025
 7.823,33.84,153.5,0.65,Waste burning,Very unhealthy,Wear a certified respirator mask when stepping outside,80.6615
 1.602,65.09,55.43,29.97,Industrial emissions,Unhealthy,Use an air purifier to improve indoor air quality,28.516
 3.403,19.16,144.03,2.42,Biomass burning,Unhealthy,Avoid all non-essential outdoor physical exertion,73.7165
@@ -1088,7 +1088,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 2.293,53.19,93.58,32.96,Industrial emissions,Unhealthy,Wear a high-efficiency particulate air mask outdoors,47.9365
 6.888,11.01,161.41,7.74,Waste burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,84.149
 5.135,75.81,39.66,3.83,Traffic congestion,Unhealthy for sensitive groups,Vulnerable populations advised to avoid outdoor exposure,22.3975
-5.338,75,32.18,1.91,Traffic congestion,Moderate,Stay informed on daily air quality forecasts,18.759
+5.338,75.0,32.18,1.91,Traffic congestion,Moderate,Stay informed on daily air quality forecasts,18.759
 0.018,3.02,23.98,3.07,Natural background air,Moderate,Be mindful of your body's health reactions,11.999
 4.615,32.15,169.32,8.47,Waste burning,Very unhealthy,Keep windows sealed and use indoor air circulation,86.9675
 2.478,4.01,67.27,1.86,Domestic cooking/heating smoke,Very unhealthy,Keep windows sealed and use indoor air circulation,34.874
@@ -1123,13 +1123,13 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 4.13,38.88,44.21,6.92,Traffic congestion,Unhealthy for sensitive groups,Limit time spent in high-traffic or dusty areas,24.17
 3.916,4.25,84.95,3.04,Biomass burning,Unhealthy,Avoid all non-essential outdoor physical exertion,44.433
 9.216,75.75,42.9,5.02,Traffic congestion,Unhealthy for sensitive groups,Avoid strenuous outdoor work or physical exercise,26.058
-1.063,6,291.71,6.42,Construction dust,Hazardous,Outdoor activities are dangerous for all population groups,146.3865
+1.063,6.0,291.71,6.42,Construction dust,Hazardous,Outdoor activities are dangerous for all population groups,146.3865
 0.271,2.18,245.84,6.43,Construction dust,Very unhealthy,Postpone all unnecessary outdoor travel and work,123.0555
 8.025,56.63,37.56,8.77,Traffic congestion,Unhealthy for sensitive groups,Vulnerable populations advised to avoid outdoor exposure,22.7925
 7.17,68.84,43.21,8.52,Traffic congestion,Unhealthy for sensitive groups,People with respiratory issues must stay indoors,25.19
 2.689,13.82,94.12,6.62,Domestic cooking/heating smoke,Unhealthy,Ensure proper ventilation with an air filter system,48.4045
 3.545,13.39,92.76,3.54,Domestic cooking/heating smoke,Unhealthy,Consider wearing an N95 respirator mask outdoors,48.1525
-4.433,73.37,53.45,10,Traffic congestion,Unhealthy for sensitive groups,Sensitive individuals should limit strenuous outdoor efforts,28.9415
+4.433,73.37,53.45,10.0,Traffic congestion,Unhealthy for sensitive groups,Sensitive individuals should limit strenuous outdoor efforts,28.9415
 7.34,66.02,48.11,2.8,Traffic congestion,Unhealthy for sensitive groups,Vulnerable populations advised to avoid outdoor exposure,27.725
 0.763,2.11,15.62,3.64,Natural background air,Moderate,Continue with normal activities but remain vigilant,8.1915
 0.31,4.52,165.57,3.72,Construction dust,Very unhealthy,It is strongly advised to remain indoors now,82.94
@@ -1169,7 +1169,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 2.259,40.15,38.33,49.6,Power plant emissions,Unhealthy for sensitive groups,Sensitive individuals should limit strenuous outdoor efforts,20.2945
 1.843,11.36,18.29,3.55,Natural background air,Moderate,Stay informed on daily air quality forecasts,10.0665
 9.085,32.14,53.51,2.82,Traffic congestion,Unhealthy for sensitive groups,Sensitive individuals should limit strenuous outdoor efforts,31.2975
-4.807,47.54,58,3.23,Traffic congestion,Unhealthy,Consider wearing an N95 respirator mask outdoors,31.4035
+4.807,47.54,58.0,3.23,Traffic congestion,Unhealthy,Consider wearing an N95 respirator mask outdoors,31.4035
 2.703,55.37,50.34,43.11,Power plant emissions,Unhealthy for sensitive groups,Avoid strenuous outdoor work or physical exercise,26.5215
 0.304,1.95,182.87,8.08,Construction dust,Unhealthy,Ensure proper ventilation with an air filter system,91.587
 2.537,74.33,53.88,18.04,Industrial emissions,Unhealthy for sensitive groups,People with respiratory issues must stay indoors,28.2085
@@ -1197,7 +1197,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 2.206,33.73,57.19,41.15,Power plant emissions,Unhealthy,Consider wearing an N95 respirator mask outdoors,29.698
 5.83,47.1,48.54,7.52,Traffic congestion,Unhealthy for sensitive groups,Avoid strenuous outdoor work or physical exercise,27.185
 3.78,6.9,190.18,2.91,Biomass burning,Very unhealthy,Keep windows sealed and use indoor air circulation,96.98
-1.6,42.13,38.4,31.29,Power plant emissions,Unhealthy for sensitive groups,Children and seniors should reduce prolonged exertion outside,20
+1.6,42.13,38.4,31.29,Power plant emissions,Unhealthy for sensitive groups,Children and seniors should reduce prolonged exertion outside,20.0
 2.66,8.76,94.16,0.69,Domestic cooking/heating smoke,Unhealthy,Consider wearing an N95 respirator mask outdoors,48.41
 9.785,72.8,35.31,3.85,Traffic congestion,Moderate,Continue with normal activities but remain vigilant,22.5475
 2.724,1.01,97.6,1.3,Domestic cooking/heating smoke,Unhealthy,Wear a high-efficiency particulate air mask outdoors,50.162
@@ -1231,7 +1231,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 5.187,17.23,113.61,8.07,Biomass burning,Unhealthy,Stay indoors with windows and doors securely closed,59.3985
 0.325,13.43,17.15,1.25,Natural background air,Moderate,Continue with normal activities but remain vigilant,8.7375
 3.829,17.49,135.6,8.03,Domestic cooking/heating smoke,Unhealthy,Avoid all non-essential outdoor physical exertion,69.7145
-4.113,18.04,177,9.85,Biomass burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,90.5565
+4.113,18.04,177.0,9.85,Biomass burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,90.5565
 3.426,6.96,134.59,7.49,Biomass burning,Unhealthy,Wear a high-efficiency particulate air mask outdoors,69.008
 7.285,23.62,112.6,14.33,Waste burning,Unhealthy,Wear a high-efficiency particulate air mask outdoors,59.9425
 5.854,19.9,165.7,9.81,Biomass burning,Hazardous,Outdoor activities are dangerous for all population groups,85.777
@@ -1259,11 +1259,11 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 7.176,33.52,193.86,11.12,Waste burning,Very unhealthy,"Cancel all outdoor activities, including school sports",100.518
 2.632,20.23,74.08,3.43,Domestic cooking/heating smoke,Unhealthy,Use an air purifier to improve indoor air quality,38.356
 6.513,39.49,30.48,2.5,Traffic congestion,Moderate,Consider reducing prolonged outdoor physical activity,18.4965
-6.177,34.39,156,5.36,Waste burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,81.0885
+6.177,34.39,156.0,5.36,Waste burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,81.0885
 4.076,5.16,95.88,8.96,Domestic cooking/heating smoke,Unhealthy,Wear a high-efficiency particulate air mask outdoors,49.978
 2.151,30.29,59.09,43.22,Power plant emissions,Unhealthy,Stay indoors with windows and doors securely closed,30.6205
 4.012,0.39,95.8,4.14,Biomass burning,Unhealthy,Consider wearing an N95 respirator mask outdoors,49.906
-1.605,11.8,212.24,3,Construction dust,Very unhealthy,"Cancel all outdoor activities, including school sports",106.9225
+1.605,11.8,212.24,3.0,Construction dust,Very unhealthy,"Cancel all outdoor activities, including school sports",106.9225
 9.363,61.93,52.82,5.03,Traffic congestion,Unhealthy for sensitive groups,Sensitive individuals should limit strenuous outdoor efforts,31.0915
 9.98,58.22,51.91,9.45,Traffic congestion,Unhealthy for sensitive groups,Avoid strenuous outdoor work or physical exercise,30.945
 6.881,17.18,232.08,0.74,Waste burning,Very unhealthy,Avoid exposure to outdoor air as much as possible,119.4805
@@ -1271,7 +1271,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.888,0.06,163.62,9.38,Construction dust,Very unhealthy,Avoid exposure to outdoor air as much as possible,82.754
 3.168,13.54,147.16,0.67,Domestic cooking/heating smoke,Unhealthy,Use an air purifier to improve indoor air quality,75.164
 4.584,33.45,237.73,13.31,Waste burning,Very unhealthy,Wear a certified respirator mask when stepping outside,121.157
-4.042,18,83.6,6.64,Biomass burning,Unhealthy for sensitive groups,Children and seniors should reduce prolonged exertion outside,43.821
+4.042,18.0,83.6,6.64,Biomass burning,Unhealthy for sensitive groups,Children and seniors should reduce prolonged exertion outside,43.821
 1.671,0.65,5.92,4.45,Natural background air,Moderate,Keep an eye on air quality updates hourly,3.7955
 3.909,63.24,67.29,17.76,Industrial emissions,Unhealthy,Use an air purifier to improve indoor air quality,35.5995
 3.889,64.69,106.61,29.21,Industrial emissions,Unhealthy,Avoid all non-essential outdoor physical exertion,55.2495
@@ -1337,7 +1337,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 6.022,22.69,121.62,14.74,Waste burning,Unhealthy,Ensure proper ventilation with an air filter system,63.821
 2.919,20.56,66.07,4.19,Domestic cooking/heating smoke,Unhealthy,Use an air purifier to improve indoor air quality,34.4945
 2.356,24.51,80.11,0.67,Domestic cooking/heating smoke,Unhealthy,Wear a high-efficiency particulate air mask outdoors,41.233
-6,28.26,193.26,2.8,Waste burning,Very unhealthy,Keep windows sealed and use indoor air circulation,99.63
+6.0,28.26,193.26,2.8,Waste burning,Very unhealthy,Keep windows sealed and use indoor air circulation,99.63
 1.642,43.89,64.39,28.93,Power plant emissions,Unhealthy,Postpone outdoor sports and strenuous activities today,33.016
 1.763,6.24,18.01,4.59,Natural background air,Moderate,Enjoy outdoor activities but with caution,9.8865
 1.034,56.93,43.48,44.77,Power plant emissions,Unhealthy for sensitive groups,Monitor your symptoms and seek medical advice,22.257
@@ -1423,7 +1423,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 2.939,6.78,114.19,8.66,Domestic cooking/heating smoke,Unhealthy,Postpone outdoor sports and strenuous activities today,58.5645
 1.685,4.55,197.87,4.71,Construction dust,Very unhealthy,Wear a certified respirator mask when stepping outside,99.7775
 4.214,17.61,98.62,3.47,Domestic cooking/heating smoke,Unhealthy,Postpone outdoor sports and strenuous activities today,51.417
-6.203,13.83,209.49,9,Waste burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,107.8465
+6.203,13.83,209.49,9.0,Waste burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,107.8465
 4.053,22.79,215.65,14.02,Waste burning,Very unhealthy,"Cancel all outdoor activities, including school sports",109.8515
 2.626,46.01,40.54,27.86,Power plant emissions,Unhealthy for sensitive groups,People with respiratory issues must stay indoors,21.583
 1.193,5.06,6.56,0.61,Natural background air,Moderate,Continue with normal activities but remain vigilant,3.8765
@@ -1435,7 +1435,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.923,12.11,203.27,2.24,Construction dust,Very unhealthy,"Cancel all outdoor activities, including school sports",102.5965
 3.737,51.32,93.98,31.16,Industrial emissions,Unhealthy,Consider wearing an N95 respirator mask outdoors,48.8585
 3.076,44.05,86.15,39.92,Industrial emissions,Unhealthy,Use an air purifier to improve indoor air quality,44.613
-3.4,51,89.3,33.59,Industrial emissions,Unhealthy for sensitive groups,Monitor your symptoms and seek medical advice,46.35
+3.4,51.0,89.3,33.59,Industrial emissions,Unhealthy for sensitive groups,Monitor your symptoms and seek medical advice,46.35
 9.185,77.36,38.07,2.71,Traffic congestion,Unhealthy for sensitive groups,Sensitive individuals should limit strenuous outdoor efforts,23.6275
 4.282,3.86,104.37,4.3,Domestic cooking/heating smoke,Unhealthy,Postpone outdoor sports and strenuous activities today,54.326
 6.966,23.67,232.79,8.31,Waste burning,Very unhealthy,"Cancel all outdoor activities, including school sports",119.878
@@ -1457,7 +1457,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.584,12.58,16.37,1.14,Natural background air,Moderate,Be mindful of your body's health reactions,8.977
 4.809,1.6,134.4,2.92,Domestic cooking/heating smoke,Unhealthy,Use an air purifier to improve indoor air quality,69.6045
 5.723,14.28,153.34,3.09,Biomass burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,79.5315
-5,3.25,148.25,7.72,Biomass burning,Unhealthy,Wear a high-efficiency particulate air mask outdoors,76.625
+5.0,3.25,148.25,7.72,Biomass burning,Unhealthy,Wear a high-efficiency particulate air mask outdoors,76.625
 7.054,12.72,247.21,5.72,Waste burning,Very unhealthy,Use an air filter or purifier in your home,127.132
 1.776,54.21,36.68,48.13,Power plant emissions,Unhealthy for sensitive groups,People with respiratory issues must stay indoors,19.228
 1.145,6.63,183.06,7.46,Construction dust,Hazardous,Outdoor activities are dangerous for all population groups,92.1025
@@ -1474,7 +1474,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.187,3.15,141.82,9.7,Construction dust,Unhealthy,Avoid all non-essential outdoor physical exertion,71.5035
 4.795,29.58,236.48,5.55,Waste burning,Very unhealthy,Avoid exposure to outdoor air as much as possible,120.6375
 3.332,0.55,87.79,5.03,Domestic cooking/heating smoke,Unhealthy,Stay indoors with windows and doors securely closed,45.561
-9.777,49.37,35,8.69,Traffic congestion,Good,"Spend time outdoors, the air quality is excellent",22.3885
+9.777,49.37,35.0,8.69,Traffic congestion,Good,"Spend time outdoors, the air quality is excellent",22.3885
 3.586,6.91,120.94,9.79,Biomass burning,Unhealthy,Stay indoors with windows and doors securely closed,62.263
 0.561,2.4,150.37,2.85,Construction dust,Very unhealthy,Avoid exposure to outdoor air as much as possible,75.4655
 7.239,33.76,104.29,14.74,Waste burning,Unhealthy,Ensure proper ventilation with an air filter system,55.7645
@@ -1494,7 +1494,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.023,13.78,282.84,1.57,Construction dust,Hazardous,Close all building ventilation systems to the outside,141.9315
 2.034,19.68,88.27,0.4,Domestic cooking/heating smoke,Unhealthy,Wear a high-efficiency particulate air mask outdoors,45.152
 4.692,15.57,147.63,4.65,Domestic cooking/heating smoke,Unhealthy,Postpone outdoor sports and strenuous activities today,76.161
-3.197,21,77.78,6.72,Domestic cooking/heating smoke,Unhealthy,Consider wearing an N95 respirator mask outdoors,40.4885
+3.197,21.0,77.78,6.72,Domestic cooking/heating smoke,Unhealthy,Consider wearing an N95 respirator mask outdoors,40.4885
 6.404,27.4,155.01,12.36,Waste burning,Very unhealthy,Keep windows sealed and use indoor air circulation,80.707
 0.419,6.83,22.71,0.52,Natural background air,Moderate,Stay informed on daily air quality forecasts,11.5645
 5.895,56.71,40.12,2.91,Traffic congestion,Unhealthy for sensitive groups,Children and seniors should reduce prolonged exertion outside,23.0075
@@ -1509,7 +1509,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 2.941,6.04,80.13,4.25,Domestic cooking/heating smoke,Unhealthy,Postpone outdoor sports and strenuous activities today,41.5355
 1.46,6.16,15.73,3.5,Natural background air,Moderate,Consider reducing prolonged outdoor physical activity,8.595
 1.247,74.34,96.16,22.56,Industrial emissions,Unhealthy,Stay indoors with windows and doors securely closed,48.7035
-2.6,34.22,33.4,30.19,Power plant emissions,Moderate,Continue with normal activities but remain vigilant,18
+2.6,34.22,33.4,30.19,Power plant emissions,Moderate,Continue with normal activities but remain vigilant,18.0
 1.561,5.85,224.56,9.11,Construction dust,Very unhealthy,Postpone all unnecessary outdoor travel and work,113.0605
 1.352,47.13,98.3,26.33,Industrial emissions,Unhealthy,Use an air purifier to improve indoor air quality,49.826
 8.039,39.44,31.73,0.41,Traffic congestion,Moderate,Stay informed on daily air quality forecasts,19.8845
@@ -1571,7 +1571,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 3.765,9.94,147.67,5.44,Domestic cooking/heating smoke,Unhealthy,Stay indoors with windows and doors securely closed,75.7175
 0.709,5.72,10.3,3.64,Natural background air,Good,Enjoy all outdoor activities with no restrictions,5.5045
 1.637,2.58,265.6,6.93,Construction dust,Hazardous,All outdoor activity must cease for a short period,133.6185
-3.868,18,94.82,9.56,Biomass burning,Unhealthy,Consider wearing an N95 respirator mask outdoors,49.344
+3.868,18.0,94.82,9.56,Biomass burning,Unhealthy,Consider wearing an N95 respirator mask outdoors,49.344
 9.636,39.88,27.33,7.41,Traffic congestion,Moderate,Consider reducing prolonged outdoor physical activity,18.483
 2.466,78.75,98.15,26.7,Industrial emissions,Unhealthy,Stay indoors with windows and doors securely closed,50.308
 1.4,44.95,101.23,27.92,Industrial emissions,Unhealthy,Postpone outdoor sports and strenuous activities today,51.315
@@ -1580,7 +1580,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.659,10.56,23.64,2.04,Natural background air,Moderate,Consider reducing prolonged outdoor physical activity,12.6495
 1.197,0.46,6.87,0.16,Natural background air,Moderate,Consider reducing prolonged outdoor physical activity,4.0335
 3.494,6.6,171.05,5.19,Biomass burning,Very unhealthy,Wear a certified respirator mask when stepping outside,87.272
-1.02,8.78,8.98,2.38,Natural background air,Moderate,Be mindful of your body's health reactions,5
+1.02,8.78,8.98,2.38,Natural background air,Moderate,Be mindful of your body's health reactions,5.0
 5.606,18.45,119.9,5.88,Waste burning,Unhealthy,Ensure proper ventilation with an air filter system,62.753
 3.237,50.92,117.11,24.83,Industrial emissions,Unhealthy,Stay indoors with windows and doors securely closed,60.1735
 4.316,43.37,49.97,8.95,Traffic congestion,Unhealthy for sensitive groups,People with respiratory issues must stay indoors,27.143
@@ -1606,13 +1606,13 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 9.455,43.22,39.36,7.56,Traffic congestion,Unhealthy for sensitive groups,Children and seniors should reduce prolonged exertion outside,24.4075
 0.671,11.48,10.82,2.42,Natural background air,Moderate,Consider reducing prolonged outdoor physical activity,5.7455
 3.281,47.72,87.94,21.16,Industrial emissions,Unhealthy,Ensure proper ventilation with an air filter system,45.6105
-0.858,9.78,18.18,0,Natural background air,Moderate,Enjoy outdoor activities but with caution,9.519
+0.858,9.78,18.18,0.0,Natural background air,Moderate,Enjoy outdoor activities but with caution,9.519
 2.886,46.75,71.75,41.6,Power plant emissions,Unhealthy,Consider wearing an N95 respirator mask outdoors,37.318
 5.837,77.47,51.73,1.4,Traffic congestion,Unhealthy for sensitive groups,Children and seniors should reduce prolonged exertion outside,28.7835
 4.404,44.65,56.79,2.4,Traffic congestion,Unhealthy for sensitive groups,Limit time spent in high-traffic or dusty areas,30.597
 3.472,6.2,115.52,8.71,Biomass burning,Unhealthy,Wear a high-efficiency particulate air mask outdoors,59.496
 5.611,26.81,202.65,4.73,Waste burning,Very unhealthy,It is strongly advised to remain indoors now,104.1305
-1.132,59.07,48,34.86,Power plant emissions,Unhealthy for sensitive groups,People with respiratory issues must stay indoors,24.566
+1.132,59.07,48.0,34.86,Power plant emissions,Unhealthy for sensitive groups,People with respiratory issues must stay indoors,24.566
 2.771,65.91,71.53,29.56,Industrial emissions,Unhealthy,Consider wearing an N95 respirator mask outdoors,37.1505
 1.763,4.92,141.2,8.7,Construction dust,Unhealthy,Use an air purifier to improve indoor air quality,71.4815
 0.716,0.13,20.98,0.16,Natural background air,Moderate,Enjoy outdoor activities but with caution,10.848
@@ -1638,7 +1638,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 4.483,4.27,63.71,2.04,Domestic cooking/heating smoke,Unhealthy,Postpone outdoor sports and strenuous activities today,34.0965
 7.07,64.83,26.38,7.99,Traffic congestion,Moderate,Be mindful of your body's health reactions,16.725
 0.686,2.07,10.99,2.48,Natural background air,Good,It is a great day for outdoor recreation,5.838
-0.523,1,0.7,1.22,Natural background air,Good,It is a great day for outdoor recreation,0.6115
+0.523,1.0,0.7,1.22,Natural background air,Good,It is a great day for outdoor recreation,0.6115
 3.342,3.02,107.81,2.51,Biomass burning,Unhealthy,Ensure proper ventilation with an air filter system,55.576
 4.687,22.95,132.89,4.25,Waste burning,Unhealthy,Use an air purifier to improve indoor air quality,68.7885
 1.787,42.1,72.73,30.86,Power plant emissions,Unhealthy,Avoid all non-essential outdoor physical exertion,37.2585
@@ -1658,7 +1658,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 7.121,24.1,139.91,10.42,Waste burning,Unhealthy,Wear a high-efficiency particulate air mask outdoors,73.5155
 1.471,9.96,2.83,3.6,Natural background air,Moderate,Keep an eye on air quality updates hourly,2.1505
 4.484,77.5,58.8,8.08,Traffic congestion,Unhealthy for sensitive groups,Avoid strenuous outdoor work or physical exercise,31.642
-7.274,11,233.6,14.88,Waste burning,Very unhealthy,Use an air filter or purifier in your home,120.437
+7.274,11.0,233.6,14.88,Waste burning,Very unhealthy,Use an air filter or purifier in your home,120.437
 1.027,9.76,22.24,2.2,Natural background air,Moderate,Enjoy outdoor activities but with caution,11.6335
 6.703,19.9,213.68,6.81,Waste burning,Very unhealthy,Keep windows sealed and use indoor air circulation,110.1915
 1.522,45.82,96.56,34.34,Industrial emissions,Unhealthy,Ensure proper ventilation with an air filter system,49.041
@@ -1703,12 +1703,12 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 5.952,5.77,195.38,3.89,Biomass burning,Very unhealthy,It is strongly advised to remain indoors now,100.666
 6.44,61.48,55.18,9.5,Traffic congestion,Unhealthy,Consider wearing an N95 respirator mask outdoors,30.81
 3.715,20.82,141.64,0.12,Domestic cooking/heating smoke,Unhealthy,Use an air purifier to improve indoor air quality,72.6775
-0.821,14,235.1,8.02,Construction dust,Very unhealthy,Avoid exposure to outdoor air as much as possible,117.9605
+0.821,14.0,235.1,8.02,Construction dust,Very unhealthy,Avoid exposure to outdoor air as much as possible,117.9605
 4.971,0.64,114.71,6.6,Domestic cooking/heating smoke,Unhealthy,Ensure proper ventilation with an air filter system,59.8405
 6.826,77.42,30.37,5.86,Traffic congestion,Moderate,Stay informed on daily air quality forecasts,18.598
 1.852,0.14,134.5,2.5,Construction dust,Unhealthy,Consider wearing an N95 respirator mask outdoors,68.176
 2.979,7.48,81.69,1.3,Domestic cooking/heating smoke,Unhealthy,Wear a high-efficiency particulate air mask outdoors,42.3345
-1.274,84,69.33,19.11,Industrial emissions,Very unhealthy,Keep windows sealed and use indoor air circulation,35.302
+1.274,84.0,69.33,19.11,Industrial emissions,Very unhealthy,Keep windows sealed and use indoor air circulation,35.302
 2.895,53.73,94.75,28.96,Industrial emissions,Unhealthy,Ensure proper ventilation with an air filter system,48.8225
 0.212,7.39,4.02,4.89,Natural background air,Good,No precautions are required at this time,2.116
 1.576,56.85,66.64,24.52,Industrial emissions,Unhealthy,Use an air purifier to improve indoor air quality,34.108
@@ -1718,14 +1718,14 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.64,43.21,38.13,48.83,Power plant emissions,Unhealthy for sensitive groups,Children and seniors should reduce prolonged exertion outside,19.885
 4.667,14.47,117.28,1.56,Domestic cooking/heating smoke,Unhealthy,Ensure proper ventilation with an air filter system,60.9735
 8.396,55.28,49.09,4.35,Traffic congestion,Unhealthy for sensitive groups,Vulnerable populations advised to avoid outdoor exposure,28.743
-2.261,40.62,51.89,30,Power plant emissions,Unhealthy for sensitive groups,Sensitive individuals should limit strenuous outdoor efforts,27.0755
+2.261,40.62,51.89,30.0,Power plant emissions,Unhealthy for sensitive groups,Sensitive individuals should limit strenuous outdoor efforts,27.0755
 0.559,2.87,12.61,4.33,Natural background air,Moderate,Consider reducing prolonged outdoor physical activity,6.5845
 0.64,10.05,4.7,3.12,Natural background air,Moderate,Keep an eye on air quality updates hourly,2.67
 1.352,6.08,287.75,0.89,Construction dust,Hazardous,Close all building ventilation systems to the outside,144.551
 0.739,7.59,14.01,3.64,Natural background air,Moderate,Be mindful of your body's health reactions,7.3745
 5.945,12.73,138.03,4.75,Waste burning,Unhealthy,Wear a high-efficiency particulate air mask outdoors,71.9875
 0.535,6.16,281.85,8.96,Construction dust,Hazardous,Outdoor activities are dangerous for all population groups,141.1925
-2.831,35.03,74.79,24,Power plant emissions,Very unhealthy,Use an air filter or purifier in your home,38.8105
+2.831,35.03,74.79,24.0,Power plant emissions,Very unhealthy,Use an air filter or purifier in your home,38.8105
 1.543,74.37,63.52,28.6,Industrial emissions,Unhealthy,Stay indoors with windows and doors securely closed,32.5315
 1.172,8.8,11.14,4.18,Natural background air,Moderate,Continue with normal activities but remain vigilant,6.156
 2.938,16.36,81.65,0.14,Domestic cooking/heating smoke,Unhealthy,Use an air purifier to improve indoor air quality,42.294
@@ -1734,7 +1734,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 4.209,5.91,108.65,2.81,Biomass burning,Unhealthy,Use an air purifier to improve indoor air quality,56.4295
 5.021,38.64,27.03,8.66,Traffic congestion,Good,No precautions are required at this time,16.0255
 6.32,35.09,52.2,5.58,Traffic congestion,Unhealthy for sensitive groups,Sensitive individuals should limit strenuous outdoor efforts,29.26
-4.709,5.19,133,5.94,Biomass burning,Unhealthy,Stay indoors with windows and doors securely closed,68.8545
+4.709,5.19,133.0,5.94,Biomass burning,Unhealthy,Stay indoors with windows and doors securely closed,68.8545
 0.077,9.32,19.45,2.5,Natural background air,Moderate,Continue with normal activities but remain vigilant,9.7635
 2.779,24.24,99.38,3.48,Domestic cooking/heating smoke,Unhealthy,Wear a high-efficiency particulate air mask outdoors,51.0795
 0.768,12.82,255.07,2.72,Construction dust,Hazardous,All individuals should immediately seek indoor shelter,127.919
@@ -1760,7 +1760,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.379,1.91,8.92,2.96,Natural background air,Moderate,Be mindful of your body's health reactions,5.1495
 0.114,1.66,160.27,4.64,Construction dust,Very unhealthy,Use an air filter or purifier in your home,80.192
 2.8,55.29,98.95,36.64,Industrial emissions,Unhealthy,Stay indoors with windows and doors securely closed,50.875
-4.658,10.4,98,7.75,Biomass burning,Unhealthy,Wear a high-efficiency particulate air mask outdoors,51.329
+4.658,10.4,98.0,7.75,Biomass burning,Unhealthy,Wear a high-efficiency particulate air mask outdoors,51.329
 2.257,35.05,31.95,34.21,Power plant emissions,Moderate,Be mindful of your body's health reactions,17.1035
 2.969,48.66,44.27,37.99,Power plant emissions,Unhealthy for sensitive groups,Monitor your symptoms and seek medical advice,23.6195
 5.98,0.9,171.56,3.72,Biomass burning,Very unhealthy,"Cancel all outdoor activities, including school sports",88.77
@@ -1828,19 +1828,19 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 4.278,12.25,190.54,5.11,Waste burning,Very unhealthy,It is strongly advised to remain indoors now,97.409
 0.525,3.63,12.08,4.43,Natural background air,Moderate,Stay informed on daily air quality forecasts,6.3025
 5.41,18.58,129.21,9.06,Biomass burning,Unhealthy,Use an air purifier to improve indoor air quality,67.31
-1.001,13.41,23,0.28,Natural background air,Moderate,Be mindful of your body's health reactions,12.0005
+1.001,13.41,23.0,0.28,Natural background air,Moderate,Be mindful of your body's health reactions,12.0005
 3.173,6.85,113.16,9.66,Biomass burning,Unhealthy,Ensure proper ventilation with an air filter system,58.1665
 0.41,7.31,21.96,2.64,Natural background air,Moderate,Be mindful of your body's health reactions,11.185
 3.595,0.82,103.33,4.08,Domestic cooking/heating smoke,Unhealthy,Stay indoors with windows and doors securely closed,53.4625
 1.654,8.44,257.43,7.14,Construction dust,Hazardous,Use high-quality N95 respirator masks if unavoidable,129.542
-3.384,15.31,81,4.17,Biomass burning,Unhealthy,Use an air purifier to improve indoor air quality,42.192
+3.384,15.31,81.0,4.17,Biomass burning,Unhealthy,Use an air purifier to improve indoor air quality,42.192
 3.174,19.16,193.18,7.85,Biomass burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,98.177
 6.295,69.04,36.93,9.31,Traffic congestion,Unhealthy for sensitive groups,Monitor your symptoms and seek medical advice,21.6125
 2.496,0.05,124.97,7.32,Domestic cooking/heating smoke,Unhealthy,Ensure proper ventilation with an air filter system,63.733
-0.701,5.65,13.34,0,Natural background air,Moderate,Keep an eye on air quality updates hourly,7.0205
+0.701,5.65,13.34,0.0,Natural background air,Moderate,Keep an eye on air quality updates hourly,7.0205
 0.56,8.47,136.78,4.14,Construction dust,Unhealthy,Ensure proper ventilation with an air filter system,68.67
 1.526,74.81,64.86,28.86,Industrial emissions,Unhealthy,Avoid all non-essential outdoor physical exertion,33.193
-3.196,9.75,85,0.63,Biomass burning,Unhealthy,Avoid all non-essential outdoor physical exertion,44.098
+3.196,9.75,85.0,0.63,Biomass burning,Unhealthy,Avoid all non-essential outdoor physical exertion,44.098
 6.209,24.88,230.92,8.65,Waste burning,Very unhealthy,It is strongly advised to remain indoors now,118.5645
 6.333,28.26,155.36,9.61,Waste burning,Very unhealthy,"Cancel all outdoor activities, including school sports",80.8465
 3.02,1.97,100.41,2.61,Domestic cooking/heating smoke,Unhealthy,Consider wearing an N95 respirator mask outdoors,51.715
@@ -1850,7 +1850,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 4.432,21.96,188.25,8.12,Waste burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,96.341
 6.27,61.98,47.17,5.36,Traffic congestion,Unhealthy for sensitive groups,Sensitive individuals should limit strenuous outdoor efforts,26.72
 6.695,31.17,149.33,10.15,Waste burning,Unhealthy,Postpone outdoor sports and strenuous activities today,78.0125
-9.224,54.88,56.31,8,Traffic congestion,Unhealthy,Use an air purifier to improve indoor air quality,32.767
+9.224,54.88,56.31,8.0,Traffic congestion,Unhealthy,Use an air purifier to improve indoor air quality,32.767
 1.071,5.91,272.83,4.93,Construction dust,Hazardous,Outdoor activities are dangerous for all population groups,136.9505
 0.456,13.83,14.81,1.9,Natural background air,Moderate,Stay informed on daily air quality forecasts,7.633
 3.867,41.89,64.51,16.18,Industrial emissions,Unhealthy for sensitive groups,Limit time spent in high-traffic or dusty areas,34.1885
@@ -1874,12 +1874,12 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 5.38,11.37,131.43,6.28,Waste burning,Unhealthy,Stay indoors with windows and doors securely closed,68.405
 7.991,21.29,153.85,6.01,Waste burning,Very unhealthy,It is strongly advised to remain indoors now,80.9205
 2.004,42.28,52.67,35.96,Industrial emissions,Unhealthy for sensitive groups,People with respiratory issues must stay indoors,27.337
-2.942,85,67.8,38.25,Industrial emissions,Unhealthy,Stay indoors with windows and doors securely closed,35.371
+2.942,85.0,67.8,38.25,Industrial emissions,Unhealthy,Stay indoors with windows and doors securely closed,35.371
 9.448,61.59,29.09,9.4,Traffic congestion,Moderate,Keep an eye on air quality updates hourly,19.269
 2.806,7.19,119.45,9.69,Domestic cooking/heating smoke,Unhealthy,Avoid all non-essential outdoor physical exertion,61.128
 6.465,58.42,30.43,1.82,Traffic congestion,Moderate,Be mindful of your body's health reactions,18.4475
 2.169,12.28,143.51,1.05,Domestic cooking/heating smoke,Unhealthy,Wear a high-efficiency particulate air mask outdoors,72.8395
-7.314,12,172.05,9.45,Waste burning,Very unhealthy,Use an air filter or purifier in your home,89.682
+7.314,12.0,172.05,9.45,Waste burning,Very unhealthy,Use an air filter or purifier in your home,89.682
 4.926,20.42,136.88,9.38,Domestic cooking/heating smoke,Unhealthy,Wear a high-efficiency particulate air mask outdoors,70.903
 3.963,42.97,110.83,29.89,Industrial emissions,Unhealthy,Use an air purifier to improve indoor air quality,57.3965
 0.62,1.29,2.27,4.62,Natural background air,Good,It is a great day for outdoor recreation,1.445
@@ -1945,7 +1945,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 1.847,8.17,169.28,7.02,Construction dust,Very unhealthy,"Cancel all outdoor activities, including school sports",85.5635
 4.346,18.79,132.47,5.18,Domestic cooking/heating smoke,Unhealthy,Ensure proper ventilation with an air filter system,68.408
 2.841,26.41,57.64,42.48,Power plant emissions,Unhealthy,Use an air purifier to improve indoor air quality,30.2405
-0.13,6.99,164,4.7,Construction dust,Hazardous,Outdoor activities are dangerous for all population groups,82.065
+0.13,6.99,164.0,4.7,Construction dust,Hazardous,Outdoor activities are dangerous for all population groups,82.065
 0.419,0.18,24.94,1.41,Natural background air,Moderate,Keep an eye on air quality updates hourly,12.6795
 4.797,2.3,92.17,9.1,Biomass burning,Unhealthy,Stay indoors with windows and doors securely closed,48.4835
 0.231,1.6,17.99,4.27,Natural background air,Moderate,Keep an eye on air quality updates hourly,9.1105
@@ -1962,7 +1962,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 2.848,50.21,75.52,34.81,Industrial emissions,Unhealthy,Use an air purifier to improve indoor air quality,39.184
 0.336,2.85,203.47,2.86,Construction dust,Very unhealthy,Postpone all unnecessary outdoor travel and work,101.903
 4.511,15.49,111.14,6.25,Domestic cooking/heating smoke,Unhealthy,Consider wearing an N95 respirator mask outdoors,57.8255
-5.155,17.25,102.33,8,Biomass burning,Unhealthy,Ensure proper ventilation with an air filter system,53.7425
+5.155,17.25,102.33,8.0,Biomass burning,Unhealthy,Ensure proper ventilation with an air filter system,53.7425
 1.749,64.98,66.26,39.7,Industrial emissions,Unhealthy,Postpone outdoor sports and strenuous activities today,34.0045
 5.935,46.93,50.54,6.38,Traffic congestion,Unhealthy for sensitive groups,Vulnerable populations advised to avoid outdoor exposure,28.2375
 1.9,49.56,66.66,49.87,Power plant emissions,Unhealthy,Use an air purifier to improve indoor air quality,34.28
@@ -1974,7 +1974,7 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 3.127,46.24,90.14,22.16,Industrial emissions,Unhealthy,Avoid all non-essential outdoor physical exertion,46.6335
 3.545,4.03,68.44,0.19,Domestic cooking/heating smoke,Unhealthy,Stay indoors with windows and doors securely closed,35.9925
 2.971,49.35,42.18,44.16,Power plant emissions,Unhealthy for sensitive groups,Avoid strenuous outdoor work or physical exercise,22.5755
-0.807,5,209.06,5.73,Construction dust,Very unhealthy,Keep windows sealed and use indoor air circulation,104.9335
+0.807,5.0,209.06,5.73,Construction dust,Very unhealthy,Keep windows sealed and use indoor air circulation,104.9335
 3.563,65.12,68.06,36.9,Industrial emissions,Unhealthy,Use an air purifier to improve indoor air quality,35.8115
 4.84,2.65,74.78,9.45,Domestic cooking/heating smoke,Unhealthy,Stay indoors with windows and doors securely closed,39.81
 1.879,43.36,42.94,30.18,Power plant emissions,Unhealthy for sensitive groups,People with respiratory issues must stay indoors,22.4095
@@ -1999,3 +1999,6 @@ CO,NO2,PM2.5,SO2,source_label,health_impact,Precautionary_Measures,AQI
 3.026,13.19,79.84,9.96,Domestic cooking/heating smoke,Unhealthy,Stay indoors with windows and doors securely closed,41.433
 2.773,39.97,60.22,39.27,Power plant emissions,Unhealthy,Ensure proper ventilation with an air filter system,31.4965
 5.985,17.14,210.46,0.36,Waste burning,Very unhealthy,Postpone all unnecessary outdoor travel and work,108.2225
+10.4,30.3,191.0,8.6,,Very unhealthy,Use an air filter or purifier in your home,98.914
+10.4,30.3,191.0,8.6,,Very unhealthy,Use an air filter or purifier in your home,98.914
+2.5,2.3,151.0,14.9,,Very unhealthy,Postpone all unnecessary outdoor travel and work,77.867

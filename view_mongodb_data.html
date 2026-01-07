@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MongoDB Data Viewer - Air Quality</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .stat-card h3 {
+            font-size: 14px;
+            margin-bottom: 10px;
+            opacity: 0.9;
+        }
+        
+        .stat-card p {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        button:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+        
+        input, select {
+            padding: 10px;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        th {
+            background: #f5f5f5;
+            font-weight: 600;
+            color: #667eea;
+        }
+        
+        tr:hover {
+            background: #f9f9f9;
+        }
+        
+        .aqi-good { color: #27ae60; font-weight: bold; }
+        .aqi-moderate { color: #f39c12; font-weight: bold; }
+        .aqi-unhealthy { color: #e74c3c; font-weight: bold; }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #667eea;
+        }
+        
+        .error {
+            background: #fee;
+            color: #c00;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        .success {
+            background: #efe;
+            color: #060;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 MongoDB Data Viewer - Air Quality Monitoring</h1>
+        <p style="color: #666; margin-bottom: 20px;">Real-time and historical air quality data from MongoDB Atlas</p>
+        
+        <div id="stats" class="stats">
+            <div class="stat-card">
+                <h3>Total Records</h3>
+                <p id="totalRecords">-</p>
+            </div>
+            <div class="stat-card">
+                <h3>Unique Cities</h3>
+                <p id="uniqueCities">-</p>
+            </div>
+            <div class="stat-card">
+                <h3>Latest Update</h3>
+                <p id="latestUpdate" style="font-size: 16px;">-</p>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <select id="cityFilter">
+                <option value="">All Cities</option>
+            </select>
+            <input type="number" id="limitInput" placeholder="Limit (default: 50)" value="50" min="1" max="500">
+            <button onclick="loadData()">🔄 Refresh Data</button>
+            <button onclick="exportToCSV()">💾 Export to CSV Dataset</button>
+        </div>
+        
+        <div id="message"></div>
+        
+        <div id="dataContainer">
+            <div class="loading">Loading data...</div>
+        </div>
+    </div>
+
+    <script>
+        const BACKEND_URL = 'http://localhost:5000';
+        
+        async function loadStats() {
+            try {
+                const response = await fetch(`${BACKEND_URL}/api/mongodb-stats`);
+                const data = await response.json();
+                
+                if (data.connected) {
+                    document.getElementById('totalRecords').textContent = data.total_records;
+                    document.getElementById('uniqueCities').textContent = data.unique_cities;
+                    
+                    if (data.latest_timestamp) {
+                        const date = new Date(data.latest_timestamp);
+                        document.getElementById('latestUpdate').textContent = date.toLocaleString();
+                    }
+                    
+                    // Populate city filter
+                    const cityFilter = document.getElementById('cityFilter');
+                    cityFilter.innerHTML = '<option value="">All Cities</option>';
+                    data.cities.forEach(city => {
+                        const option = document.createElement('option');
+                        option.value = city;
+                        option.textContent = city;
+                        cityFilter.appendChild(option);
+                    });
+                } else {
+                    showMessage('MongoDB not connected: ' + data.error, 'error');
+                }
+            } catch (error) {
+                showMessage('Error loading stats: ' + error.message, 'error');
+            }
+        }
+        
+        async function loadData() {
+            const city = document.getElementById('cityFilter').value;
+            const limit = document.getElementById('limitInput').value || 50;
+            
+            document.getElementById('dataContainer').innerHTML = '<div class="loading">Loading data...</div>';
+            
+            try {
+                let url = `${BACKEND_URL}/api/historical-data?limit=${limit}`;
+                if (city) {
+                    url += `&city=${encodeURIComponent(city)}`;
+                }
+                
+                const response = await fetch(url);
+                const result = await response.json();
+                
+                if (result.success) {
+                    displayData(result.data);
+                    await loadStats(); // Refresh stats
+                } else {
+                    showMessage('Error loading data', 'error');
+                }
+            } catch (error) {
+                showMessage('Error: ' + error.message, 'error');
+            }
+        }
+        
+        function displayData(data) {
+            const container = document.getElementById('dataContainer');
+            
+            if (data.length === 0) {
+                container.innerHTML = '<p style="text-align: center; padding: 40px; color: #999;">No data found. Search for a city in the main app to generate data.</p>';
+                return;
+            }
+            
+            let html = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Timestamp</th>
+                            <th>City</th>
+                            <th>AQI</th>
+                            <th>CO</th>
+                            <th>NO₂</th>
+                            <th>PM2.5</th>
+                            <th>SO₂</th>
+                            <th>Source</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            
+            data.forEach(record => {
+                const timestamp = new Date(record.timestamp).toLocaleString();
+                const aqi = record.prediction.aqi;
+                let aqiClass = 'aqi-good';
+                if (aqi > 100) aqiClass = 'aqi-moderate';
+                if (aqi > 150) aqiClass = 'aqi-unhealthy';
+                
+                html += `
+                    <tr>
+                        <td>${timestamp}</td>
+                        <td>${record.city}</td>
+                        <td class="${aqiClass}">${aqi}</td>
+                        <td>${record.pollutants.CO}</td>
+                        <td>${record.pollutants.NO2}</td>
+                        <td>${record.pollutants['PM2.5']}</td>
+                        <td>${record.pollutants.SO2}</td>
+                        <td>${record.prediction.source}</td>
+                    </tr>
+                `;
+            });
+            
+            html += '</tbody></table>';
+            container.innerHTML = html;
+        }
+        
+        async function exportToCSV() {
+            try {
+                const response = await fetch(`${BACKEND_URL}/api/export-to-csv`, {
+                    method: 'POST'
+                });
+                const result = await response.json();
+                
+                if (result.success) {
+                    showMessage(`✓ ${result.message}`, 'success');
+                } else {
+                    showMessage(result.message, 'error');
+                }
+            } catch (error) {
+                showMessage('Export error: ' + error.message, 'error');
+            }
+        }
+        
+        function showMessage(message, type) {
+            const msgDiv = document.getElementById('message');
+            msgDiv.className = type;
+            msgDiv.textContent = message;
+            setTimeout(() => {
+                msgDiv.textContent = '';
+                msgDiv.className = '';
+            }, 5000);
+        }
+        
+        // Load data on page load
+        loadStats();
+        loadData();
+        
+        // Auto-refresh every 30 seconds
+        setInterval(() => {
+            loadStats();
+            loadData();
+        }, 30000);
+    </script>
+</body>
+</html>

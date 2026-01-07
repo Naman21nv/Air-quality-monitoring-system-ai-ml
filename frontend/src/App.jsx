@@ -5,7 +5,10 @@ import {
 } from 'recharts';
 import './App.css';
 
-const TOKEN = import.meta.env.VITE_WAQI_TOKEN || "demo";
+const TOKEN = import.meta.env.VITE_WAQI_TOKEN;
+if (!TOKEN) {
+  console.error('VITE_WAQI_TOKEN not found in environment variables');
+}
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
 
 const getAqiStatus = (aqi) => {
